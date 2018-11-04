@@ -14,6 +14,9 @@
 		ADC94A6D218E88F4009873AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC94A6B218E88F4009873AA /* LaunchScreen.storyboard */; };
 		ADC94A78218E88F4009873AA /* Add1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC94A77218E88F4009873AA /* Add1Tests.swift */; };
 		ADC94A83218E88F4009873AA /* Add1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC94A82218E88F4009873AA /* Add1UITests.swift */; };
+		ADC94A92218E89DE009873AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC94A90218E89DE009873AA /* MainViewController.swift */; };
+		ADC94A93218E89DE009873AA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC94A91218E89DE009873AA /* MainViewController.xib */; };
+		ADC94A95218E8E10009873AA /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADC94A94218E8E10009873AA /* HVD_Comic_Serif_Pro.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		ADC94A7E218E88F4009873AA /* Add1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Add1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC94A82218E88F4009873AA /* Add1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add1UITests.swift; sourceTree = "<group>"; };
 		ADC94A84218E88F4009873AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC94A90218E89DE009873AA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ADC94A91218E89DE009873AA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		ADC94A94218E8E10009873AA /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		ADC94A61218E88F3009873AA /* Add1 */ = {
 			isa = PBXGroup;
 			children = (
+				ADC94A90218E89DE009873AA /* MainViewController.swift */,
+				ADC94A91218E89DE009873AA /* MainViewController.xib */,
 				ADC94A62218E88F3009873AA /* AppDelegate.swift */,
 				ADC94A64218E88F3009873AA /* ViewController.swift */,
 				ADC94A66218E88F3009873AA /* Main.storyboard */,
 				ADC94A69218E88F4009873AA /* Assets.xcassets */,
 				ADC94A6B218E88F4009873AA /* LaunchScreen.storyboard */,
 				ADC94A6E218E88F4009873AA /* Info.plist */,
+				ADC94A94218E8E10009873AA /* HVD_Comic_Serif_Pro.otf */,
 			);
 			path = Add1;
 			sourceTree = "<group>";
@@ -230,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADC94A6D218E88F4009873AA /* LaunchScreen.storyboard in Resources */,
+				ADC94A95218E8E10009873AA /* HVD_Comic_Serif_Pro.otf in Resources */,
 				ADC94A6A218E88F4009873AA /* Assets.xcassets in Resources */,
 				ADC94A68218E88F3009873AA /* Main.storyboard in Resources */,
+				ADC94A93218E89DE009873AA /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC94A92218E89DE009873AA /* MainViewController.swift in Sources */,
 				ADC94A65218E88F3009873AA /* ViewController.swift in Sources */,
 				ADC94A63218E88F3009873AA /* AppDelegate.swift in Sources */,
 			);
